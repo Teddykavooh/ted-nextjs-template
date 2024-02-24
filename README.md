@@ -4,6 +4,13 @@
 - Rename/Refactor the package name in: `package.json`
 - Rename the folder **if need be**.
 
+## Dependency updating
+- Install the npm packages updater `sudo npm install -g npm-check-updates`
+- Check update availability `ncu`
+  - **NOTE:** be in the 'package.json` parent directory.
+  - `pwd` to check the current directory.
+- Run `ncu -u` to upgrade `package.json`
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
